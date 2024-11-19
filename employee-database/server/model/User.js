@@ -16,6 +16,6 @@ const EmployeeSchema = new mongoose.Schema({
     imgUpload: { type: String }
     
 })
-const UserModel = mongoose.model("users", UserSchema);
+const UserModel = mongoose.model("user", UserSchema);
 const EmployeeModal=mongoose.model("employees",EmployeeSchema)
 module.exports = {UserModel,EmployeeModal};
